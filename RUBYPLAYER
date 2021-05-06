@@ -1,0 +1,25 @@
+class Player
+		  attr_accessor:name ,:score,:run
+		def initialize (name,score,add_run)
+		@name="Dhoni"
+                @score= ("0.8,2.1,2.5")
+    		@run= ("0,1,2,3,4,5,6,7")
+ 		end
+ 		
+		def invalid_score(score)	
+		@score= 0.8,2.1,2.5
+    		puts "Invalid Score"
+  		end
+					
+		def run(run)
+    		@run= ("0,1,2,3,4,5,6,7")
+		end
+               
+               if 1>0.8
+  		puts "x is greater than 0.8"
+ 		elsif  2>2.1
+   		puts "x is greater than 2.1"
+		else   3>2.5
+   		puts "x is greater thean 2.5"
+ 		end			
+	end
